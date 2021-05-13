@@ -1,6 +1,6 @@
 # Covaccinator
 
-A scraper to find available Covid 19 vaccination appointments in Montreal.
+A web scraper to find available Covid 19 vaccination appointments in Montreal.
 
 ## Getting Started
 
@@ -18,7 +18,7 @@ python main.py
 
 Create a `secret.py` file, containing an authtoken from https://clients3.clicsante.ca/, as well as credentials for an email account capable of sending email. You can find instructions on how to get these credentials [here](https://towardsdatascience.com/e-mails-notification-bot-with-python-4efa227278fb).
 
-You can get your auth token from clicsante using developer tools in Google Chrome.
+You can get your auth token from clicsante using developer tools in Google Chrome. Using the networks tab, try to find a request to https://api3.clicsante.ca/v3/, and look at the request headers. 
 
 #### Sample secret.py
 
